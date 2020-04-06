@@ -1,10 +1,11 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+@import "config";
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  @include background;
   background: $primary-color;
   color: #fff;
   height: 100%;
@@ -14,7 +15,6 @@ body {
 }
 
 //Heading
-
 h1,
 h2,
 h3 {
@@ -58,7 +58,15 @@ main {
 
       &:hover {
         color: $secondary-color;
+        @include easeOut();
       }
+    }
+  }
+
+  &#home {
+    overflow: hidden;
+    h1 {
+      margin-top: 20vh;
     }
   }
 }
