@@ -177,6 +177,7 @@ position: relative;
     font-weight: 600;
     font-size:1.125rem;
     margin-right: 0.2rem;
+    
 }
 .Sec1 .AboutPart .AboutData p
 {
@@ -241,6 +242,7 @@ position: relative;
     font-size: 3rem;
     font-weight: bold;
     color: #000000;
+    margin-top: 10rem;
 }
 .Sec1 .ServicesHeader .Header p,.Sec3 .Header p
 {
@@ -496,6 +498,7 @@ position: relative;
     font-size: 3rem;
     font-weight: bold;
     color: #000000;
+    margin-top: 10rem;
 }
 .Sec5 .Sec5_Header .Header p
 {
