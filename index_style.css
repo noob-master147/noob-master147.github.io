@@ -286,7 +286,7 @@ position: relative;
 }
 .Sec2
 {
-    background-image:url('images/post-3.jpg');
+    background-image:url('images/overlay-bg.jpg');
     background-attachment: fixed;
     background-size:cover;
     height:45rem;
